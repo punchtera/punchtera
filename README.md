@@ -5,9 +5,10 @@
 
 function Juan(){
   this.programmingLanguages = ['Javascript', 'Typescript', 'Ruby', 'Python', 'Golang', 'CSS', 'HTML', 'C#'];
-  this.frameworks = ['React', 'React-Native', 'Vue', 'Angular'];
+  this.frameworks = ['React', 'React-Native', 'Vue', 'Rails'];
   this.tools = ['Node', 'Docker', 'Storybook', 'Jest', 'Styled-Components'];
   this.architecture = ['Microservices', 'Design System', 'Event-Driven' ];
+  this.cloud = ['AWS', 'GCP'];
   
   this.code = () => {
     console.log('lets do it');
