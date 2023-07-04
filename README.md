@@ -1,10 +1,10 @@
 <h2>Hi I'm Juan Ramirez 👋</h2>
-<p><em>Fullstack Software Engineer at <a href="https://www.hypergiant.com/">Hypergiant Industries</a> 🚀 </em></p>
+<p><em>Fullstack Software Engineer at <a href="https://www.limberhealth.com/">Limber</a> </em></p>
 
 ```javascript
 
 function Juan(){
-  this.programmingLanguages = ['Javascript', 'Typescript', 'Ruby', 'Python', 'Golang', 'CSS', 'HTML', 'C#'];
+  this.programmingLanguages = ['Javascript', 'Typescript', 'Ruby', 'Golang', 'Python', 'CSS', 'HTML', 'C#'];
   this.frameworks = ['React', 'React-Native', 'Vue', 'Rails'];
   this.tools = ['Node', 'Docker', 'Storybook', 'Jest', 'Styled-Components'];
   this.architecture = ['Microservices', 'Design System', 'Event-Driven' ];
