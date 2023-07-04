@@ -23,5 +23,5 @@ juan.code();
 - Reach me through LinkedIn or Twitter 📫. 
 
 [![Twitter: jsramirezc](https://img.shields.io/twitter/follow/jsramirezc?style=social)](https://twitter.com/jsramirezc)
-[![Linkedin: juanse-punchtera](https://www.linkedin.com/in/juanse-punchtera/)
-[![GitHub punchtera](https://img.shields.io/github/followers/thaiane?label=follow&style=social)](https://github.com/punchtera)
+[![Linkedin: juan-sebastian-ramirez-castañeda-8176a04b](https://img.shields.io/badge/-juan-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/juan-sebastian-ramirez-castañeda-8176a04b/)](https://www.linkedin.com/in/juan-sebastian-ramirez-castañeda-8176a04b/)
+[![GitHub: punchtera](https://img.shields.io/github/followers/thaiane?label=follow&style=social)](https://github.com/punchtera)
