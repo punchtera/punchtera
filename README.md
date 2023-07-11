@@ -1,22 +1,40 @@
 <h2>Hi I'm Juan Ramirez 👋</h2>
 <p><em>Fullstack Software Engineer at <a href="https://www.limberhealth.com/">Limber</a> </em></p>
 
-```javascript
-
-function Juan(){
-  this.programmingLanguages = ['Javascript', 'Typescript', 'Ruby', 'Golang', 'Python', 'CSS', 'HTML', 'C#'];
-  this.frameworks = ['React', 'React-Native', 'Vue', 'Rails'];
-  this.tools = ['Node', 'Docker', 'Storybook', 'Jest', 'Styled-Components'];
-  this.architecture = ['Microservices', 'Design System', 'Event-Driven' ];
-  this.cloud = ['AWS', 'GCP'];
-  
-  this.code = () => {
-    console.log('lets do it');
-  }
+```typescript
+interface Developer {
+    architecture: string[];
+    databases: string[];
+    frameworks: string[];
+    languages: string[];
+    tools: string[];
+    code: () => void;
 }
 
-const juan = new Juan();
-juan.code();
+class FullstackDeveloper implements Developer {
+    architecture: string[];
+    cloud: string[];
+    databases: string[];
+    frameworks: string[];
+    languages: string[];
+    tools: string[];
+
+    constructor(){
+        this.architecture = ['Microservice', 'GRPC']
+        this.cloud = ['AWS', 'GCP'];
+        this.databases = ['postgresql', 'mysql', 'sqlserver', 'dynamoDB', 'MongoDB'];
+        this.frameworks = ['docker', 'k8s', 'vue', 'angular'];
+        this.languages = ['javascript', 'ruby', 'golang', 'python', 'C#'];
+        this.tools = ['react', 'node'];
+    }
+
+    code(){
+        return "lets go 🧨";
+    }
+}
+
+const punchtera = new FullstackDeveloper();
+punchtera.code();
 
 ```
 
