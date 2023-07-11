@@ -3,6 +3,7 @@
 
 ```typescript
 interface Developer {
+    api: string[];
     architecture: string[];
     databases: string[];
     frameworks: string[];
@@ -12,6 +13,7 @@ interface Developer {
 }
 
 class FullstackDeveloper implements Developer {
+    api: string[];
     architecture: string[];
     cloud: string[];
     databases: string[];
@@ -20,7 +22,8 @@ class FullstackDeveloper implements Developer {
     tools: string[];
 
     constructor(){
-        this.architecture = ['Microservice', 'GRPC']
+        this.api = ['REST', 'Graphql', 'GRPC']
+        this.architecture = ['Microservice', 'Layer', 'Event-Driven]
         this.cloud = ['AWS', 'GCP'];
         this.databases = ['postgresql', 'mysql', 'sqlserver', 'dynamoDB', 'MongoDB'];
         this.frameworks = ['docker', 'k8s', 'vue', 'angular'];
