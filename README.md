@@ -25,10 +25,10 @@ class FullstackDeveloper implements Developer {
         this.api = ['REST', 'Graphql', 'GRPC']
         this.architecture = ['Microservice', 'Layer', 'Event-Driven]
         this.cloud = ['AWS', 'GCP'];
-        this.databases = ['postgresql', 'mysql', 'sqlserver', 'dynamoDB', 'MongoDB'];
-        this.frameworks = ['docker', 'k8s', 'vue', 'angular'];
-        this.languages = ['javascript', 'ruby', 'golang', 'python', 'C#'];
-        this.tools = ['react', 'node'];
+        this.databases = ['Postgresql', 'Mysql', 'SqlServer', 'DynamoDB', 'MongoDB'];
+        this.frameworks = ['Docker', 'K8S', 'Vue', 'Angular'];
+        this.languages = ['Typescript', 'Javascript', 'Golang', 'Ruby', 'Python', 'C#'];
+        this.tools = ['React', 'Node'];
     }
 
     code(){
