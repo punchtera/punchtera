@@ -23,8 +23,8 @@ class FullstackDeveloper implements Developer {
 
     constructor(){
         this.api = ['REST', 'Graphql', 'GRPC']
-        this.architecture = ['Microservice', 'Layer', 'Event-Driven]
-        this.cloud = ['AWS', 'GCP'];
+        this.architecture = ['Microservice', 'Layer', 'Event-Driven']
+        this.cloud = ['AWS', 'GCP', 'Azure'];
         this.databases = ['Postgresql', 'Mysql', 'SqlServer', 'DynamoDB', 'MongoDB'];
         this.frameworks = ['Docker', 'K8S', 'Vue', 'Angular'];
         this.languages = ['Typescript', 'Javascript', 'Golang', 'Ruby', 'Python', 'C#'];
