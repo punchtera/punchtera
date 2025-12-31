@@ -1,7 +1,7 @@
 ## Hi, I'm Juan Ramirez 👋
 
 <p>
-  <em>Senior Software Engineer | Polyglot Developer | Cloud Architect</em>
+  <em>Senior Software Engineer | Cloud Architect</em>
 </p>
 
 ```typescript
