@@ -1,48 +1,39 @@
-<h2>Hi I'm Juan Ramirez 👋</h2>
-<p><em>Fullstack Software Engineer at <a href="https://www.limberhealth.com/">Limber</a> </em></p>
+## Hi, I'm Juan Ramirez 👋
+
+<p>
+  <em>Senior Software Engineer | Polyglot Developer | Cloud Architect</em>
+</p>
 
 ```typescript
-interface Developer {
-    api: string[];
-    architecture: string[];
-    databases: string[];
-    frameworks: string[];
+/**
+ * @description Senior Engineer with 9+ years of experience building 
+ * high-performance web applications and scalable backend systems.
+ */
+interface SeniorEngineer {
     languages: string[];
-    tools: string[];
-    code: () => void;
-}
-
-class FullstackDeveloper implements Developer {
-    api: string[];
-    architecture: string[];
+    backend: string[];
+    frontend: string[];
     cloud: string[];
     databases: string[];
-    frameworks: string[];
-    languages: string[];
-    tools: string[];
+    architecture: string[];
+}
 
-    constructor(){
-        this.api = ['REST', 'Graphql', 'GRPC']
-        this.architecture = ['Microservice', 'Layer', 'Event-Driven']
-        this.cloud = ['AWS', 'GCP', 'Azure'];
-        this.databases = ['Postgresql', 'Mysql', 'SqlServer', 'DynamoDB', 'MongoDB'];
-        this.frameworks = ['Docker', 'K8S', 'Vue', 'Angular'];
-        this.languages = ['Typescript', 'Javascript', 'Golang', 'Ruby', 'Python', 'C#'];
-        this.tools = ['React', 'Node'];
+class JuanRamirez implements SeniorEngineer {
+    languages    = ['TypeScript', 'Golang', 'Python', 'C#', 'JavaScript'];
+    backend      = ['Node.js', 'Nest.js', 'Express', 'Serverless'];
+    frontend     = ['React', 'Vue 3', 'React Native', 'Next.js'];
+    cloud        = ['AWS', 'GCP', 'Azure'];
+    databases    = ['PostgreSQL', 'Snowflake', 'DynamoDB', 'MySQL', 'SQL Server'];
+    architecture = ['Microservices', 'Event-Driven', 'REST', 'GraphQL', 'gRPC'];
+
+    public getStatus(): string {
+        return "Transforming complex requirements into scalable code. 🚀";
     }
 
-    code(){
-        return "lets go 🧨";
+    public code(): void {
+        console.log("Building the future, one commit at a time. 🧨");
     }
 }
 
-const punchtera = new FullstackDeveloper();
-punchtera.code();
-
-```
-
-- Reach me through LinkedIn or Twitter 📫. 
-
-[![Twitter: jsramirezc](https://img.shields.io/twitter/follow/jsramirezc?style=social)](https://twitter.com/jsramirezc)
-[![Linkedin: juan-sebastian-ramirez-castañeda-8176a04b](https://img.shields.io/badge/-juan-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/juan-sebastian-ramirez-castañeda-8176a04b/)](https://www.linkedin.com/in/juan-sebastian-ramirez-castañeda-8176a04b/)
-[![GitHub: punchtera](https://img.shields.io/github/followers/thaiane?label=follow&style=social)](https://github.com/punchtera)
+const me = new JuanRamirez();
+me.code();
